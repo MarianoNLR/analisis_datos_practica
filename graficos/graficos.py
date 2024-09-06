@@ -72,3 +72,13 @@ sns.set_theme(style='darkgrid')
 # plt.ylabel('Cantidad de Ventas')
 # plt.xticks(rotation=45)
 # plt.show()
+
+# 8. Distribucion de ventas por dia de la semana
+# df_dia_venta = df_limpio
+# df_dia_venta['Day of week'] = pd.to_datetime(df_limpio['Date'], format='%m/%d/%Y').dt.day_name()
+# sns.countplot(data=df_dia_venta, x='Day of week', order=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
+# plt.title('Ventas dia de la semana.')
+# plt.xlabel('Dia')
+# plt.ylabel('Número de ventas')
+# plt.xticks(rotation=45)
+# plt.show()
