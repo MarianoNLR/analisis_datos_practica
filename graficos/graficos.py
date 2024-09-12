@@ -82,3 +82,6 @@ sns.set_theme(style='darkgrid')
 # plt.ylabel('Número de ventas')
 # plt.xticks(rotation=45)
 # plt.show()
+
+# df_limpio['FechaHora'] = pd.to_datetime(df_limpio['Date'].astype(str) + ' ' + df_limpio['Time'].astype(str))
+# print(df_limpio)
